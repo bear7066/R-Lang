@@ -128,6 +128,28 @@ fruits <- list("apple", "banana", "cherry")
   }
 }
 
+## Functions
+
+myFunction <- function(fname, lame){
+	print(paste(fname, lame,"yooooooR"))
+}
+myFunction(10 ,"Henry")
+myFunction(20, "Michelle")
+
+# function with default parameter
+
+rockFunction <- function(country = "China"){
+	paste("im come from here", country)
+} 
+rockFunction()
+rockFunction("dfasf")
+
+# return value
+rockTailFunction <- function(x){
+	return (x * 5)
+}
+print(rockTailFunction(10))
+
 ## Error
 # num <- 5
 # text <- "Some text"
